@@ -14,3 +14,15 @@
 - El cast a `(int)` es como maquillarle el sueldo a fin de mes: se ve bonito, pero no es real.
 - El buffer del `Scanner` es un campo minado: no lo limpias, explota.
 - Los nombres de las variables parecen iniciales de estudiantes reprobando lógica.
+
+documentacion ejercicio multimetro:
+input: nombre
+input: velocidad
+si velocidad es <=60, 
+imprimir "¡felicidades! no has excedido los limites de seguridad"
+sino
+multa= (velocidad -60 )*2.5
+imprimir "usted ha excedido lops limites de seguridad su multa es de: " +multa
+
+optimizacion:
+acondicionar las variables
